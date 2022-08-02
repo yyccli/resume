@@ -10,9 +10,14 @@
 \RequirePackage{xifthen}
 % use hyperlink for email and url
 \RequirePackage{hyperref}
-\hypersetup{hidelinks}
+\hypersetup{
+  hidelinks,
+  colorlinks=true,
+  urlcolor=black
+}
 \RequirePackage{url}
 \urlstyle{tt}
+
 % use fontawesome
 \RequirePackage{fontawesome}
 % use xcolor for customizing color
