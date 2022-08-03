@@ -13,50 +13,60 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{你的大名}
+\name{李泱丞}
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
+  \email{ycli98@outlook.com} \textperiodcentered\ 
+  \phone{(+86) 18001560090} \textperiodcentered\ 
+  \github[yyccli]{https://github.com/yyccli}}
  
-\section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{上海交通大学}, 上海}{2013 -- 至今}
-\textit{在读硕士研究生}\ 信息与通信工程, 预计 2016 年 3 月毕业
-\datedsubsection{\textbf{西安电子科技大学}, 西安, 陕西}{2009 -- 2013}
-\textit{学士}\ 通信工程
+\section{教育背景}
+\datedsubsection{\textbf{上海交通大学}，上海}{2020 -- 至今}
+\textit{在读硕士研究生}\ 计算机科学与技术，预计2023年6月毕业
+\datedsubsection{\textbf{中南大学}，长沙，湖南}{2016 -- 2020}
+\textit{学士}\ 计算机科学与技术
 
-\section{\faUsers\ 实习/项目经历}
-\datedsubsection{\textbf{黑科技公司} 上海}{2015年3月 -- 2015年5月}
-\role{实习}{经理: 高富帅}
-xxx后端开发
+\section{研究经历}
+Synpose: A Large-Scale and Densely Annotated Synthetic Dataset for Human Pose Estimation in Classroom
+Zefang Yu，\textbf{Yangcheng Li}，Yicheng Liu，Ting Liu，Yuzhuo Fu. \textbf{ICASSP} 2022
 \begin{itemize}
-  \item 实现了 xxx 特性
-  \item 后台资源占用率减少8\%
-  \item xxx
+  \item 提出SynPose：一个面向课堂和会议场景的虚拟数据集，并用于人体姿态估计任务
+  \item 提出Classroom-style Transfer Generative Adversarial Network（CTGAN）来更好的进行虚拟域和真实域的风格迁移
+  \item 搭建一个网站提供数据集相关细节：{\underline{\url{https://yuzefang96.github.io/SynPose/}}}
+\end{itemize}
+个人贡献：
+\begin{itemize}
+  \item 完善数据集采集工程代码，实现CTGAN模型并进行消融实验，建设数据集网站部分内容
 \end{itemize}
 
-\datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
-\role{Golang, Linux}{个人项目，和富帅糕合作开发}
-\begin{onehalfspacing}
-分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
+\section{实习/项目经历}
+\datedsubsection{\textbf{参与开源社区项目：{\underline{\href{https://github.com/open-mmlab/mmaction2}{mmAction2}}}}}{2022年5月}
 \begin{itemize}
-  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
-  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
-  \item xxx (尽量使用量化的客观结果)
+  \item 参与相关issue讨论：{\underline{\href{https://github.com/open-mmlab/mmaction2/issues/1624}{\#1624}}}，{\underline{\href{https://github.com/open-mmlab/mmaction2/issues/1628}{\#1628}}}，{\underline{\href{https://github.com/open-mmlab/mmaction2/issues/1640}{\#1640}}}，{\underline{\href{https://github.com/open-mmlab/mmaction2/issues/1662}{\#1662}}}
+  \item 提交若干pull request：{\underline{\href{https://github.com/open-mmlab/mmaction2/pull/1622}{\#1622}}}，{\underline{\href{https://github.com/open-mmlab/mmaction2/pull/1627}{\#1627}}}，{\underline{\href{https://github.com/open-mmlab/mmaction2/pull/1630}{\#1630}}}
 \end{itemize}
-\end{onehalfspacing}
 
-\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
-\role{\LaTeX, Python}{个人项目}
-\begin{onehalfspacing}
-优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
+\datedsubsection{\textbf{研究生阶段研究项目}}{2021年10月 -- 至今}
+基于DEtection TRansformer（DETR）的时序视频动作检测算法探究
 \begin{itemize}
-  \item 容易定制和扩展
-  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
-  \item 支持 FontAwesome 4.5.0
+  \item 基于DETR架构，提出一种新的时序视频动作检测模型框架
+  \item 实现端到端的单阶段训练，避免了许多人工设计
+  \item 针对视频动作特点对模型进行针对性改进，取得较好的检测结果
 \end{itemize}
-\end{onehalfspacing}
+
+\datedsubsection{\textbf{本科阶段毕业设计}}{2020年3月 -- 2020年6月}
+基于注意力的目标检测及其在尿沉渣有形成分分析中的应用
+\begin{itemize}
+  \item 将尿沉渣有形成分分析视作目标检测问题，区别于传统的手工方法
+  \item 采用Faster RCNN+FPN进行目标检测分析，检测效果良好
+\end{itemize}
+
+\datedsubsection{\textbf{中科南京人工智能创新研究院} \textit{暑期实习}}{2019年7月 -- 2019年9月}
+功率仪上的数字识别算法
+\begin{itemize}
+  \item 使用灰度化，阈值处理和形态学滤波等方法对原始图像进行预处理，改善数据质量
+  \item 训练CNN模型用于识别单个数字，最终识别效果可接近99\%并能够较好的检测小数点
+\end{itemize}
 
 % Reference Test
 %\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
@@ -65,25 +75,17 @@ xxx后端开发
 %  \item main contribution
 %\end{itemize}
 
-\section{\faCogs\ IT 技能}
+\section{IT技能}
 % increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C == Python > C++ > Java
-  \item 平台: Linux
-  \item 开发: xxx
+\begin{itemize}
+  \item 编程语言：C++ == python > C\#
+  \item 平台：Linux，PyTorch
+  \item 英语水平：六级（CET\_6）578分
 \end{itemize}
 
-\section{\faHeartO\ 获奖情况}
-\datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
-\datedline{其他奖项}{2015}
-
-\section{\faInfo\ 其他}
-% increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.5ex]
-  \item 技术博客: http://blog.yours.me
-  \item GitHub: https://github.com/username
-  \item 语言: 英语 - 熟练(TOEFL xxx)
-\end{itemize}
+\section{获奖情况}
+\datedline{中南大学优秀学生}{2016 -- 2017}
+\datedline{中南大学校级二等，三等奖学金}{2017，2018}
 
 %% Reference
 %\newpage
